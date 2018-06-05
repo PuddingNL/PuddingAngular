@@ -1,0 +1,26 @@
+[
+  {
+    "company": "Clockwork",
+    "title": "Software Engineer III",
+    "date": "1 dec 2013 - heden",
+    "description": "Werkzaam bij Clockwork als Frontend Developer. Ik specialiseer mij op het gebied van JavaScript frameworks als Angular en ReactJS."
+  },
+  {
+    "company": "Cartel Internet & Marketing",
+    "title": "Support Medewerker",
+    "date": "1 dec 2012 - 30 nov 2013",
+    "description": "Bij Cartel was ik werkzaam als Junior PHP en Frontend Developer op support. Dat betekend kleine fouten oplossen en veel communiceren met de klanten van Cartel."
+  },
+  {
+    "company": "WebSight",
+    "title": "Stagiair",
+    "date": "Jan 2011 - Jun 2011",
+    "description": "Tijdens mijn afstuderen heb ik een marketing onderzoek gedaan op het gebied van e-commerce. Dit onderzoek bestond uit o.a. een markt onderzoek, concurrentie analyse, klant onderzoek en meer."
+  },
+  {
+    "company": "Etocom",
+    "title": "Stagiair / Junior Webdeveloper",
+    "date": "Jan 2010 - Aug 2010",
+    "description": "Bouwen en onderhouden van websites. Front-end en Back-end. HTML, CSS, JavaScript, PHP en MySQL."
+  }
+]

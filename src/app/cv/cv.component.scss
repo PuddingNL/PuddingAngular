@@ -1,0 +1,33 @@
+.cv-wrapper {
+  margin: 4vw 0;
+  padding-bottom: 4vw;
+  border-bottom: 3px solid #34495e;
+
+  div.experience {
+    // margin-bottom: 4vw;
+    // padding-bottom: 4vw;
+
+    ul li {
+      list-style: none;
+      min-height: 120px;
+      &:last-child {
+        min-height: 0;
+      }
+      header {
+        float: left;
+        width: 30%;
+        margin-right: 2%;
+        &:after {
+          clear: both;
+        }
+      }
+      div {
+        overflow: hidden;
+      }
+    }
+  }
+  p.more {
+    padding: 40px 0 20px;
+    clear: both;
+  }
+}
