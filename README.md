@@ -22,6 +22,10 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
+## Visual Studio Code user settings
+
+`// Place your settings in this file to overwrite the default settings { "window.zoomLevel": 0, // Controls the font size in pixels. "editor.fontSize": 16, "workbench.iconTheme": "material-icon-theme", "workbench.statusBar.visible": true, "powermode.enabled": false, "editor.cursorBlinking": "expand", "window.title": " (ツ)\_/¯ ${activeEditorShort}${separator}${rootName}", "editor.minimap.enabled": false, "editor.formatOnSave": true }`
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
