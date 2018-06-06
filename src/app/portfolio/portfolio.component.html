@@ -2,94 +2,16 @@
 
   <ul class="card-wrapper">
 
-    <li class="card">
+    <li class="card" *ngFor="let card of cards">
       <div class="img">
-        <img src="https://placekitten.com/g/300/150" alt="">
+        <img src="{{ card.image }}" alt="">
       </div>
       <div class="text">
         <h2>
-          <a href="#">Website</a>
+          <a href="#">{{ card.title }}</a>
         </h2>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-        <small>Jeroen Bijl</small>
-      </div>
-    </li>
-
-    <li class="card">
-      <div class="img">
-        <img src="https://placekitten.com/g/300/150" alt="">
-      </div>
-      <div class="text">
-        <h2>
-          <a href="#">Website</a>
-        </h2>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-        <small>Jeroen Bijl</small>
-      </div>
-    </li>
-
-    <li class="card">
-      <div class="img">
-        <img src="https://placekitten.com/g/300/150" alt="">
-      </div>
-      <div class="text">
-        <h2>
-          <a href="#">Website</a>
-        </h2>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-        <small>Jeroen Bijl</small>
-      </div>
-    </li>
-
-    <li class="card">
-      <div class="img">
-        <img src="https://placekitten.com/g/300/150" alt="">
-      </div>
-      <div class="text">
-        <h2>
-          <a href="#">Website</a>
-        </h2>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-        <small>Jeroen Bijl</small>
-      </div>
-    </li>
-
-    <li class="card">
-      <div class="img">
-        <img src="https://placekitten.com/g/300/150" alt="">
-      </div>
-      <div class="text">
-        <h2>
-          <a href="#">Website</a>
-        </h2>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-        <small>Jeroen Bijl</small>
-      </div>
-    </li>
-
-    <li class="card">
-      <div class="img">
-        <img src="https://placekitten.com/g/300/150" alt="">
-      </div>
-      <div class="text">
-        <h2>
-          <a href="#">Website</a>
-        </h2>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-        <small>Jeroen Bijl</small>
-      </div>
-    </li>
-
-    <li class="card">
-      <div class="img">
-        <img src="https://placekitten.com/g/300/150" alt="">
-      </div>
-      <div class="text">
-        <h2>
-          <a href="#">Website</a>
-        </h2>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-        <small>Jeroen Bijl</small>
+        <p>{{ card.description }}</p>
+        <small>{{ card.author }}</small>
       </div>
     </li>
 

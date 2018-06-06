@@ -45,8 +45,7 @@
   z-index: 1;
   height: 100%;
   width: 0;
-  // background: linear-gradient(to bottom right, #27ae60, #2ecc71);
-  background: #7f8c8d;
+  background: #2980b9;
   opacity: 0;
   visibility: hidden;
   transition: width 0.35s, opacity 0.35s, visibility 0.35s;
@@ -64,12 +63,23 @@
       padding: 0;
       position: relative;
       height: 100%;
-      left: -200%;
-      transition: left 0.5s ease-in;
-      // transition-delay: .20s;
       li {
         position: relative;
         height: calc(100% / 4);
+        left: -200%;
+        transition: left 0.5s ease-in;
+        &:first-child {
+          transition-delay: 0.1s;
+        }
+        &:nth-child(2) {
+          transition-delay: 0.2s;
+        }
+        &:nth-child(3) {
+          transition-delay: 0.3s;
+        }
+        &:nth-child(4) {
+          transition-delay: 0.4s;
+        }
         a {
           color: white;
           text-decoration: none;
@@ -91,7 +101,7 @@
     }
     opacity: 1;
     visibility: visible;
-    .overlay-menu ul {
+    .overlay-menu ul li {
       left: 0;
     }
   }

@@ -6,13 +6,19 @@
   ul.card-wrapper {
     list-style: none;
     padding: 0;
+
     display: flex;
     flex-wrap: wrap;
     grid-gap: 4rem;
     justify-content: space-between;
+
     li.card {
+      margin: 20px 0;
       width: 30%;
       border: 1px solid black;
+      .text {
+        padding: 10px;
+      }
     }
   }
 }

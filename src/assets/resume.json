@@ -1,7 +1,31 @@
 [
   {
+    "company": "Nationaal Archief - Gedetacheerd",
+    "title": "Frontend Developer",
+    "date": "1 sept 2015 - heden",
+    "description": "Bouwen van de nieuwe website in Drupal 8."
+  },
+  {
+    "company": "Port of Rotterdam - Gedetacheerd",
+    "title": "Frontend Developer",
+    "date": "",
+    "description": "Bouwen van de nieuwe website in Drupal 7."
+  },
+  {
+    "company": "Grand Depart - Gedetacheerd",
+    "title": "Frontend Developer",
+    "date": "1 dec 2013 - heden",
+    "description": "Werkzaam bij Clockwork als Frontend Developer. Ik specialiseer mij op het gebied van JavaScript frameworks als Angular en ReactJS."
+  },
+  {
+    "company": "Rabobank - Gedetacheerd",
+    "title": "Frontend Developer",
+    "date": "1 jan 2014 - 1 dec 2015",
+    "description": "Onderdeel van het generieke team waar ik werkte aan de Rabobank.nl website. Wij bouwden de generieke componenten en implementeerde de widgets."
+  },
+  {
     "company": "Clockwork",
-    "title": "Software Engineer III",
+    "title": "Software Engineer II / Frontend Developer",
     "date": "1 dec 2013 - heden",
     "description": "Werkzaam bij Clockwork als Frontend Developer. Ik specialiseer mij op het gebied van JavaScript frameworks als Angular en ReactJS."
   },

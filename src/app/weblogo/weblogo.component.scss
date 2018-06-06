@@ -1,0 +1,20 @@
+.weblogo-wrapper {
+  margin: 4vw 0;
+  padding-bottom: 4vw;
+  border-bottom: 3px solid #34495e;
+
+  .logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .logo {
+      width: 20%;
+      height: auto;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}

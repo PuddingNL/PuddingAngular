@@ -1,15 +1,21 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
+import { HttpClient } from "@angular/common/http";
 
 @Component({
-  selector: 'app-portfolio',
-  templateUrl: './portfolio.component.html',
-  styleUrls: ['./portfolio.component.scss']
+  selector: "app-portfolio",
+  templateUrl: "./portfolio.component.html",
+  styleUrls: ["./portfolio.component.scss"]
 })
 export class PortfolioComponent implements OnInit {
-
-  constructor() { }
+  constructor(private http: HttpClient) {}
+  private _jsonurl = "/assets/portfolio.json";
+  cards = [];
 
   ngOnInit() {
+    this.http.get(this._jsonurl).subscribe((data: any[]) => {
+      if (data.length) {
+        this.cards = data;
+      }
+    });
   }
-
 }

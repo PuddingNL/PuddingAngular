@@ -8,6 +8,7 @@ import { AboutMeComponent } from "./about-me/about-me.component";
 import { PortfolioComponent } from "./portfolio/portfolio.component";
 import { MenuComponent } from "./menu/menu.component";
 import { CvComponent } from "./cv/cv.component";
+import { WeblogoComponent } from './weblogo/weblogo.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CvComponent } from "./cv/cv.component";
     AboutMeComponent,
     PortfolioComponent,
     MenuComponent,
-    CvComponent
+    CvComponent,
+    WeblogoComponent
   ],
   imports: [BrowserModule, HttpClientModule],
   providers: [],
