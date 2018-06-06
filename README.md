@@ -24,19 +24,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Visual Studio Code user settings
 
-// Place your settings in this file to overwrite the default settings
-{
-"window.zoomLevel": 0,
-// Controls the font size in pixels.
-"editor.fontSize": 16,
-"workbench.iconTheme": "material-icon-theme",
-"workbench.statusBar.visible": true,
-"powermode.enabled": false,
-"editor.cursorBlinking": "expand",
-"window.title": " (ツ)\_/¯ ${activeEditorShort}${separator}${rootName}",
-"editor.minimap.enabled": false,
-"editor.formatOnSave": true
-}
+`// Place your settings in this file to overwrite the default settings { "window.zoomLevel": 0, // Controls the font size in pixels. "editor.fontSize": 16, "workbench.iconTheme": "material-icon-theme", "workbench.statusBar.visible": true, "powermode.enabled": false, "editor.cursorBlinking": "expand", "window.title": " (ツ)\_/¯ ${activeEditorShort}${separator}${rootName}", "editor.minimap.enabled": false, "editor.formatOnSave": true }`
 
 ## Further help
 
