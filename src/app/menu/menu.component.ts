@@ -1,4 +1,4 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit, HostListener } from "@angular/core";
 
 @Component({
   selector: "app-menu",
@@ -7,6 +7,7 @@ import { Component, OnInit } from "@angular/core";
 })
 export class MenuComponent implements OnInit {
   menuOpen: boolean = false;
+  menuScroll: boolean = false;
 
   constructor() {}
 
@@ -14,5 +15,14 @@ export class MenuComponent implements OnInit {
 
   toggleMenu() {
     this.menuOpen = !this.menuOpen;
+  }
+
+  @HostListener("window:scroll", [])
+  onWindowScroll() {
+    if (window.pageYOffset > 600) {
+      this.menuScroll = true;
+    } else {
+      this.menuScroll = false;
+    }
   }
 }
