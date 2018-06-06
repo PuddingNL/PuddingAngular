@@ -1,0 +1,18 @@
+.portfolio-wrapper {
+  margin: 4vw 0;
+  padding-bottom: 4vw;
+  border-bottom: 3px solid #34495e;
+
+  ul.card-wrapper {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 4rem;
+    justify-content: space-between;
+    li.card {
+      width: 30%;
+      border: 1px solid black;
+    }
+  }
+}
