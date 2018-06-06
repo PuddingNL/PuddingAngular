@@ -1,4 +1,14 @@
 .weblogo-wrapper {
+  h2 {
+    text-align: center;
+    &:after {
+      content: "-";
+      display: block;
+      width: 100%;
+      color: green;
+    }
+  }
+
   margin: 4vw 0;
   padding-bottom: 4vw;
   border-bottom: 3px solid #34495e;
