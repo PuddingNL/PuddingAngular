@@ -1,6 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
 
+// Compontent.
 @Component({
   selector: "app-portfolio",
   templateUrl: "./portfolio.component.html",
